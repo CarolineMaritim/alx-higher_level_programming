@@ -1,0 +1,14 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>>
+>>> text_indentation("Despite the harmony of love, support, understanding, and shared experiences, families are not immune to conflicts. These conflicts? marked by periods of tension, are the commas that bring pauses to the narrative. Yet: it is family")
+Despite the harmony of love, support, understanding, and shared experiences, families are not immune to conflicts.
+
+These conflicts?
+
+marked by periods of tension, are the commas that bring pauses to the narrative.
+
+Yet:
+
+it is family>>>
+>>>
+>>>

@@ -1,0 +1,38 @@
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+>>> matrix = [[9, 6, 3], [5, 3, 3], [2, 3, 4.2]]
+>>> matrix_divided(matrix, 3)
+[[3.0, 2.0, 1.0], [1.67, 1.0, 1.0], [0.67, 1.0, 1.4]]
+>>>
+>>>
+>>> matrix_divided(matrix, "hello")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/caroline-maritim/alx-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py", line 22, in matrix_divided
+    raise TypeError("div must be a number")
+TypeError: div must be a number
+>>>
+>>>
+>>> matrix_divided(matrix, 0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/caroline-maritim/alx-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py", line 26, in matrix_divided
+    raise ZeroDivisionError("division by zero")
+ZeroDivisionError: division by zero
+>>>
+>>>
+>>> matrix = [[6, 7, 8], [3, 4, 5], [1, 2, "hello"]]
+>>>
+>>> matrix_divided(matrix, 3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/caroline-maritim/alx-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py", line 17, in matrix_divided
+    raise TypeError(Err)
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+>>>
+>>> matrix = [[6, 7], [3, 4], [1, 2]]
+>>>
+>>> matrix_divided(matrix, 3)
+[[2.0, 2.33], [1.0, 1.33], [0.33, 0.67]]
+>>>
+>>>
+>>>
