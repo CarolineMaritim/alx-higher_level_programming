@@ -6,6 +6,7 @@ import sys
 
 
 def init_board(n):
+    """initializes the chessboard"""
     board = []
     [board.append([]) for i in range(n)]
     [row.append(' ') for i in range(n) for row in board]
