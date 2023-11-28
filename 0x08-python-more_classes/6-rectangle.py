@@ -3,6 +3,7 @@
 
 
 class Rectangle:
+    """Represent a rectangle."""
 
     number_of_instances = 0
 
