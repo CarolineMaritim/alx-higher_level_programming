@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""gets max integer"""
 
 
 def max_integer(list=[]):
