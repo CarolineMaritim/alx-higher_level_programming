@@ -3,4 +3,5 @@
 
 
 def lookup(obj):
+    """Should return the location of the attribute"""
     return (dir(obj))
