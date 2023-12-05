@@ -4,5 +4,5 @@
 
 class BaseGeometry:
     """Class BaseGeometry 
-    that does nothing"""
+    which does nothing"""
     pass

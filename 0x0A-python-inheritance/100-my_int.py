@@ -10,5 +10,5 @@ class MyInt(int):
         return self.real != value
 
     def __ne__(self, value):
-        """Returns False if not equal"""
+        """Returns False if not equal to value"""
         return self.real == value

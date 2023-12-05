@@ -7,7 +7,7 @@ class Rectangle(BaseGeometry):
     """Child class Rectangle"""
 
     def __init__(self, width, height):
-        """Defines a rectangle and checks it's dimensions"""
+        """Defines a rectangle plus checks it's dimensions"""
         self.integer_validator("width", width)
         self.__width = width
         self.integer_validator("height", height)
